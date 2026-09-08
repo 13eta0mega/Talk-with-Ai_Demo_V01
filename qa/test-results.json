@@ -1,0 +1,133 @@
+{
+  "browser": "152.0.7977.76",
+  "offline": true,
+  "checks": [
+    {
+      "name": "neutral render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "happy render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "excited render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "sad render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "angry render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "surprised render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "sleepy render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "wink render-once / valid geometry",
+      "pass": true
+    },
+    {
+      "name": "compatible authored mouth and eyelid topology",
+      "pass": true
+    },
+    {
+      "name": "retarget reads the current pose without reset",
+      "pass": true
+    },
+    {
+      "name": "rapid transitions finish at final neutral",
+      "pass": true
+    },
+    {
+      "name": "pause holds exact geometry",
+      "pass": true
+    },
+    {
+      "name": "bounce changes root transform",
+      "pass": true
+    },
+    {
+      "name": "reduced motion cancels action and remains still",
+      "pass": true
+    },
+    {
+      "name": "pivot changes through canvas",
+      "pass": true
+    },
+    {
+      "name": "JSON save-load roundtrip",
+      "pass": true
+    },
+    {
+      "name": "invalid config rejected",
+      "pass": true
+    },
+    {
+      "name": "speaking modulates mouth",
+      "pass": true
+    },
+    {
+      "name": "custom Bezier settings applied",
+      "pass": true
+    },
+    {
+      "name": "SVG export is vector without rig marker",
+      "pass": true
+    },
+    {
+      "name": "multiple instances have independent IDs",
+      "pass": true
+    },
+    {
+      "name": "390px mobile has no horizontal overflow",
+      "pass": true
+    },
+    {
+      "name": "no browser errors",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "topologies": {
+    "neutral": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "happy": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "excited": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "sad": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "angry": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "surprised": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "sleepy": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    },
+    "wink": {
+      "mouth": "MCCZ",
+      "lid": "MCCCCZ"
+    }
+  }
+}
